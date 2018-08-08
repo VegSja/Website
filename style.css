@@ -1,9 +1,67 @@
 body{
-
+	background-color: #1C1C1C;
 }
-h1{
-
+div.Header{ /*Contains logo, projects, about and donate*/
+	background-color: #F2F2F2;
+	height: 50px;
+	padding-bottom: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+div.headContain{ /*Contains headline*/
+	background-color: #1C1C1C;
+	height: 100px;
+	width: 80%;
+	display: inline-block;
+}
+div.item{ /*Each news item*/
+	background-color: #F2F2F2;
+	width: 25%;
+	height: 400px;
+	display: inline-block;
+	margin: 30px;
+	position: relative;
+}
+div.itemHeadline{ /*For instance news item */
+	height: 100px;
+	width: 100%;
+	background-color: #7B241C;
+	display: inline-block;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+img.item{ /*For items in project tabs */
+	width: 100%;
+	height: 300px;
+	margin: auto;
+}
+h1.mainLink{ /*Team Spacebear Logo*/
+	color: #1C1C1C;
+	font-family: "Courier New";
+	font-size: 30px;
+	float: left;
+}
+h1.subLinks{ /*Projects, donate, about....*/
+	color: #1C1C1C;
+	font-family: "Courier New";
+	float: right;
+	font-size: 30px;
+	padding-left: 50px;
+}
+h2.headLine{ /*News, project, about, donate headline*/
+	color: #F2F2F2;
+	font-family: "Courier New";
+	font-style: bold;
+	font-size: 50px;
+	padding-left: 100px;
+}
+h3.itemText{ /*Declare individual news, projects*/
+	color: #F2F2F2;
+	font-family: "Courier New";
+	font-size: 50px;
+	margin: auto;
 }
 p{
-	
+
 }
