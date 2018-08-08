@@ -31,10 +31,22 @@ div.itemHeadline{ /*For instance news item */
 	bottom: 0;
 	left: 0;
 }
+div.descriptionContent{
+	background-color: #F2F2F2;
+	width: 33%;
+	height: 100%;
+    position: absolute;
+    top:25%;
+    left: 33%;
+    text-align: center;
+}
 img.item{ /*For items in project tabs */
 	width: 100%;
 	height: 300px;
 	margin: auto;
+}
+img.about{
+	width:80% ;
 }
 h1.mainLink{ /*Team Spacebear Logo*/
 	color: #1C1C1C;
@@ -56,6 +68,11 @@ h2.headLine{ /*News, project, about, donate headline*/
 	font-size: 50px;
 	padding-left: 100px;
 }
+h2.headDesc{	/*For headlines in for instance individual projects*/
+	color: #1C1C1C;
+	font-family: "Courier New";
+	font-size: 50px;
+}
 h3.itemText{ /*Declare individual news, projects*/
 	color: #F2F2F2;
 	font-family: "Courier New";
@@ -63,5 +80,7 @@ h3.itemText{ /*Declare individual news, projects*/
 	margin: auto;
 }
 p{
+	font-family: "Courier New";
+	font-size: 30px;
 
 }
